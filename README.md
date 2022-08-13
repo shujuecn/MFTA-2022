@@ -1,4 +1,4 @@
-# TMFTA2022
+# MFTA-2022
 
 * 关于"The most favorite Thai actor of 2022"的R爬虫
 * 投票结束，项目停止！
