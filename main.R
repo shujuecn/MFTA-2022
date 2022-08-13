@@ -2,7 +2,6 @@ library(tidyverse)
 library(RCurl)
 library(XML)
 library(stringr)
-library(rio)
 
 ####################################################
 
@@ -86,4 +85,4 @@ df
 
 ####################################################
 
-export(df, file = paste0("1-3 Groups Votes ", gsub(":", ".", Sys.time()), ".csv"))
+rio::export(df, file = paste0("1-3 Groups Votes ", gsub(":", ".", Sys.time()), ".csv"))
